@@ -1,0 +1,36 @@
+
+
+body {
+    background-image: url('https://cdn.wallpapersafari.com/18/9/uRQOg4.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: rgb(226, 244, 244);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;    
+}
+
+.container{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; 
+    grid-template-rows: repeat(3,1fr);
+    margin-left: 200px;
+
+
+}
+img{
+    border: 3px solid rgb(255, 0, 0);
+    display: block;
+    height: 200px;
+    width: 200px;
+
+
+}
+
